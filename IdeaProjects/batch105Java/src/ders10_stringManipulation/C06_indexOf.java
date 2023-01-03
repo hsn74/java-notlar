@@ -3,7 +3,6 @@ package ders10_stringManipulation;
 public class C06_indexOf {
     public static void main(String[] args) {
         String str="Ahmet hoca ile hersey clear";
-        str.indexOf("a");
         System.out.println(str.indexOf("a"));
         System.out.println(str.indexOf("c"));
         System.out.println(str.indexOf("hersey"));

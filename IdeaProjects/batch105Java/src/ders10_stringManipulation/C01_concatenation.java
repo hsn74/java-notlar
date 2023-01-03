@@ -11,6 +11,7 @@ public class C01_concatenation {
         System.out.println(sayi+dbl);
         System.out.println(str1.concat("" ).concat(str2));
         //concat sadece String variable leri birlestirmek için kullanilir.
+        System.out.println(str1.concat("").concat(str2));
 
     }
 }

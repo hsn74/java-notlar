@@ -7,6 +7,7 @@ public class C03_equalsIgnoreCase {
         String str3="ALI";
         System.out.println(str1.equals(str2));
         System.out.println(str1.equalsIgnoreCase(str3));
+        System.out.println(str1.equalsIgnoreCase(str3));
         System.out.println(str1.equalsIgnoreCase("Ali Can"));
 
     }

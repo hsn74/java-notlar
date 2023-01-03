@@ -13,7 +13,7 @@ public class C08_MethodOlusturma {
         System.out.println("iki sayi gir");
         double sayi1=scan.nextDouble();
         double sayi2=scan.nextDouble();
-        System.out.println("topalm:"+(sayi1+sayi2));
+        System.out.println("toplam:"+(sayi1+sayi2));
 
     }
 }

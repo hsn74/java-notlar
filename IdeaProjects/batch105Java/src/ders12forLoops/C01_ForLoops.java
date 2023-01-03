@@ -4,6 +4,8 @@ public class C01_ForLoops {
     public static void main(String[] args) {
 
         String str= "Java\n";
+        String str1="hasan   ";
+        System.out.print(str1.repeat(5));
         System.out.println(str.repeat(10));
 
         // repeat olmasaydi

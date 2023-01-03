@@ -11,6 +11,6 @@ public class C02_replace {
         System.out.println(str.replace("Java","Hava"));
         //sadece 1.a yi A yapin
         System.out.println(str.replaceFirst("a","A"));
-        System.out.println(str.replace("","_"));
+        System.out.println(str.replace(" ","-"));
 }
 }

@@ -6,11 +6,10 @@ public class C03_NestedForLoop {
         // 1-4 arasindaki sayilar icin carpim tablosu olusturalim
 
         // dis dongu satirlari kontrol eder
-
         for (int i = 1; i <=5 ; i++) {
 
-            // ic dongu her satirda olan degerleri kontrol eder
-            for (int j = 1; j <=5 ; j++) {
+            for (int j =1; j <=5 ; j++) {
+
 
                 System.out.print(i*j + " " );
 

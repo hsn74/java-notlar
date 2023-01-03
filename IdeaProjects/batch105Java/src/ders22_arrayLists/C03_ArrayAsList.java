@@ -19,12 +19,12 @@ public class C03_ArrayAsList {
         // sadece array'in bir elemanini degistirelim
          */
         Integer[]arr={1,2,3};
-        List<Integer>arraydenList= Arrays.asList(arr);
+        List<Integer>arraydenList=Arrays.asList(arr);
+        System.out.println(Arrays.toString(arr));
         System.out.println("Liste:"+arraydenList);
         System.out.println("Array:"+Arrays.toString(arr));
         arr[0]=10;
         System.out.println("array i degistirme Array:"+Arrays.toString(arr));
         System.out.println("array degistirme Liste:"+arraydenList);
-
     }
 }

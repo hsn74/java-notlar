@@ -1,6 +1,7 @@
 package ders21_arrayLists;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class C03_contains {
@@ -10,6 +11,8 @@ public class C03_contains {
         for (int i = 0; i < arr.length ; i++) {
             sayilar.add(arr[i]);
         }
-        System.out.println(sayilar.contains(3));
+        System.out.println(sayilar.contains(04));
+        System.out.println(Arrays.toString(arr));
+        System.out.print(Arrays.toString(arr));
     }
 }

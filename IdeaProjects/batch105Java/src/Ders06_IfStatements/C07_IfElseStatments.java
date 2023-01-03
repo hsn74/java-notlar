@@ -11,7 +11,7 @@ public class C07_IfElseStatments {
         System.out.println("lutfen vir karakter gir");
         char krk=scan.next().charAt(0);
         if (krk>='a' && krk <='z') {
-            System.out.println((char)(krk - 32));
+            System.out.println((char)(krk-32));
         }else{
             System.out.println(krk);
         }

@@ -1,7 +1,7 @@
 package ders30_encapsulation;
 
 public class C01_Encapsulations {
-    private String hastaneIsmi="Yildiz Hastanesi";
+    private String hastaneIsmi = "Yildiz Hastanesi";
 
     public void setHastaUcreti(int hastaUcreti) {
         this.hastaUcreti = hastaUcreti;
@@ -29,6 +29,7 @@ public class C01_Encapsulations {
 
 
     public String getHemsireIsmi() {
+
         return hemsireIsmi;
     }
 

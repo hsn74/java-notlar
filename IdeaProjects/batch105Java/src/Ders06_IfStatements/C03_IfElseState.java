@@ -15,6 +15,7 @@ public class C03_IfElseState {
             System.out.println("Eskenar ucgen");
         } else {
             System.out.println("Eskenar ucgen degil");
+
         }
     }
 }

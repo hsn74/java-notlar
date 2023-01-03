@@ -21,6 +21,7 @@ public class C05_SubstringOlustur {
 
 
 
+
     }
 
     public static void kendiSubstringMethodumuz(String input, int basIndexi, int bitIndexi){

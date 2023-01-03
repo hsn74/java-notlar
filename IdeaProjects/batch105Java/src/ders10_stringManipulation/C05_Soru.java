@@ -8,9 +8,8 @@ public class C05_Soru {
 
          */
         String email="ahmet@gmail.com";
-
-        if (!email.contains("@)")) {
-            System.out.println("gecersiz email");
+       if(!email.contains("@")){
+           System.out.println("gecersiz email");
 
         }else if(!email.contains(("@gmail.com"))){
             System.out.println("gmail adresi giriniz");

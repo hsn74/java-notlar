@@ -13,7 +13,7 @@ public class C02_forLoops {
 
         for (int i = sayi; i >=1; i--) {
 
-            faktoryel= faktoryel*i ;
+            faktoryel*=i;
         }
 
         System.out.println(faktoryel);

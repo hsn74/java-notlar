@@ -11,35 +11,23 @@ public class C01_OrtalamaninUstundekiNotsayisi {
         // Ogretmenden ogrenci notlarini alip bir list olusturun
         // ogretmen 100'den buyuk bir sayi girip, bitirdiginde
         // sinif sayisini, sinif ortalamasini ve kac kisinin ortalamanin ustunde not aldigini yazdirin
-
-        List<Double> notlar = listeOlustur();
-
+        List<Double>notlar=listeOlustur();
         System.out.println(notlar);
-
         raporla(notlar);
-
-
     }
-
     public static void raporla(List<Double> notlar) {
         // sinif sayisini, sinif ortalamasini ve kac kisinin ortalamanin ustunde not aldigini yazdirin
-
         int ogrenciSayisi = notlar.size();
         double notlarToplami = 0.0;
         double sinifNotOrtalamasi = 0.0;
         int ortalamaUstundekiOgrenciSayisi = 0;
-
         // notlar toplamini bulalim
-
-        for (int i = 0; i < notlar.size(); i++) {
-
-            notlarToplami += notlar.get(i);
+        for (int i = 0; i <notlar.size() ; i++) {
+            notlarToplami+=notlar.get(i);
         }
 
         // not ortalamasini bulalim
-
-        sinifNotOrtalamasi = notlarToplami / ogrenciSayisi;
-
+        sinifNotOrtalamasi=notlarToplami/ogrenciSayisi;
         // ortalama ustundeki ogrenci sayisini bulalim
 
         for (int i = 0; i < notlar.size(); i++) {
@@ -48,7 +36,6 @@ public class C01_OrtalamaninUstundekiNotsayisi {
                 ortalamaUstundekiOgrenciSayisi++;
             }
         }
-
         // rapor icin istenenleri yazdiralim
         System.out.print("Girilen not sayisi : " + ogrenciSayisi +
                 "\nGirilen notlarin ortalamasi : " + sinifNotOrtalamasi +

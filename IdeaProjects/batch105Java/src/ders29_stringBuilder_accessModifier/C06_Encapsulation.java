@@ -32,6 +32,7 @@ public class C06_Encapsulation {
         // sayilar.get(1)=10; get okumaya izin var ama deger atamaya(yazmaya) izin yok
 
         // System.out.println(sayilar.set(1)); set varsa MUTLAKA deger atamalisin
+        System.out.println(sayilar);
     }
 
 

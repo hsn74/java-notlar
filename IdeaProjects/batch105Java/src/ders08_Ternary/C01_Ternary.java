@@ -15,6 +15,6 @@ public class C01_Ternary {
         }else{
             System.out.println(sayi+10);
         }
-        System.out.println(sayi>0 ? 2*sayi : sayi+10);
+        System.out.println(sayi>0?2*sayi:sayi+10);
     }
 }

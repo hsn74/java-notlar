@@ -15,6 +15,7 @@ public class C02_StringPool {
 
             String str5="Ja";
             str5=str5.concat("va");
+            System.out.println(str1.equals(str5));
 
 
             System.out.println(str1.equals(str2)); // true

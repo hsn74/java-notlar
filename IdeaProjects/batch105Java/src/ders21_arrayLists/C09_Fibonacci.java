@@ -27,28 +27,20 @@ public class C09_Fibonacci {
         }else {
             fibonacciSayilariniyazdir(girilenSayi);
         }
-
-
     }
 
     public static void fibonacciSayilariniyazdir(int girilenSayi) {
         // buraya geldiyse girilen sayi 1'den buyuktur
-
-        List<Integer> fibonacciListesi= new ArrayList<>();
+        List<Integer>fibonacciListesi=new ArrayList<>();
         fibonacciListesi.add(0);
         fibonacciListesi.add(1);
         fibonacciListesi.add(1);
-
         int yeniFibonacciSayisi=0;
-        int index=3; // ilk 3 eleman 0 1 1 oldugu icin 3.index'e geldik
-
+        int index=3;
         while (yeniFibonacciSayisi<girilenSayi){
-
             yeniFibonacciSayisi= fibonacciListesi.get(index-2) + fibonacciListesi.get(index-1);
-
-            if (yeniFibonacciSayisi<girilenSayi){
+            if(yeniFibonacciSayisi<girilenSayi){
                 fibonacciListesi.add(yeniFibonacciSayisi);
-
             }
             index++;
         }

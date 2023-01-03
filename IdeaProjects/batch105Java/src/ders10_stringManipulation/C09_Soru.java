@@ -10,7 +10,6 @@ public class C09_Soru {
          */
         String cumle="Java cok guzeldir cok";
         String metin="cok";
-
         int ilkIndex=cumle.indexOf(metin);
         int sonIndex=cumle.lastIndexOf(metin);
         if (ilkIndex==-1) {
@@ -20,6 +19,5 @@ public class C09_Soru {
         }else{
             System.out.println("cumle birden fazla var");
         }
-
     }
 }

@@ -11,8 +11,5 @@ public class C04_replaceAll {
         input=input.replace("5"," ");
         input=input.replaceAll("\\s"," ");
         System.out.println(input);
-
-
-
     }
 }
