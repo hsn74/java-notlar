@@ -20,6 +20,7 @@ public class map2 {
         105=Ayse-Cem-11-M-TM,
         106=Fatma-Han-10-K-Soz
         }
+
          */
         System.out.println(ogrenciMap);
         Set<Integer>ogrenciKeySet=ogrenciMap.keySet();
