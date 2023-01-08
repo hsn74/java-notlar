@@ -8,6 +8,8 @@ public class C01_Ternary {
     // pozitif degilse 10 ekle
 //gfhjkmölçş..lkjhgf
     //*****g
+    //***
+
 
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
