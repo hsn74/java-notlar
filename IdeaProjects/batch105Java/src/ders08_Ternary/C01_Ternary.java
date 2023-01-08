@@ -6,7 +6,7 @@ public class C01_Ternary {
     //kullanicidan bir sayi alin
     //sayi pozitif ise katini al
     // pozitif degilse 10 ekle
-
+//gfhjkmölçş..lkjhgf
 
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
