@@ -9,6 +9,8 @@ public class C01_Ternary {
 //gfhjkmölçş..lkjhgf
     //*****g
     //***
+    //*****
+    //12345
 
 
     public static void main(String[] args) {
