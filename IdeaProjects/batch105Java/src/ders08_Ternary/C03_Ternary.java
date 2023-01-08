@@ -5,6 +5,7 @@ public class C03_Ternary {
         int a = 5;
         //ternary tek basına kullanılmaz1
         //ternary tek basına kullanılmaz
+        //ternary tek basına kullanılmaz 2
         String sonuc = a % 2 == 0 ? "cift sayi" : "tek sayi";
         String sonuc2 = a > 10 ? "buyuk sayi" : "" + 2 * a;
         System.out.println(sonuc2);
