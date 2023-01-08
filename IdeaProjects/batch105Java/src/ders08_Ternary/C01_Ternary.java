@@ -6,6 +6,13 @@ public class C01_Ternary {
     //kullanicidan bir sayi alin
     //sayi pozitif ise katini al
     // pozitif degilse 10 ekle
+//gfhjkmölçş..lkjhgf
+    //*****g
+    //***
+    //*****
+    //12345
+
+
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.println("lutfen bir sayi giriniz");
